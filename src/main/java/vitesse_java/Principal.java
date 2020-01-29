@@ -1,4 +1,4 @@
-package mortiers_javafx;
+package vitesse_java;
 
 import commun.debogage.DoitEtre;
 import commun.debogage.J;
