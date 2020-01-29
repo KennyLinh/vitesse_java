@@ -1,0 +1,22 @@
+plugins {
+
+    id 'java-library'
+
+}
+
+repositories {
+
+    jcenter()
+
+}
+
+dependencies {
+
+    compile project(':commun')
+    compile project(':commun_javafx')
+}
+
+task(joueur01,dependsOn: 'classes', type: JavaExec){
+	main = 'vitesse_java.Principal'
+	classpath = sourceSets.main.runtimeClasspath
+}
