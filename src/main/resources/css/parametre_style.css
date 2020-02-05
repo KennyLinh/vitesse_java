@@ -1,0 +1,181 @@
+
+.conteneurPrincipal {
+
+	-fx-background-color: white;
+	-fx-min-width:100px;
+	//-fx-max-width:600px;
+	-fx-min-height:100px;
+	//-fx-max-height: 200px;
+	
+
+}
+
+
+/* Le contenu du titre et des boîtes à cochages pour la couleur de la carte*/
+.conteneurCouleur {
+	
+
+	-fx-min-width: 150px;
+	
+	-fx-alignment:center;
+	-fx-max-width: 800px;
+	-fx-max-height: 50px;
+
+
+}
+
+/* Label pour les cartes*/
+.conteneurTitreCouleurCarte {
+	-fx-min-height: 50px;
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-font-style: italic;
+	
+
+	
+}
+
+.contenuTotalCouleur{
+	
+	-fx-min-height: 50px;
+	-fx-max-height: 200px;
+
+
+}
+
+/* Checkbox des cartes */
+.conteneurCochageCouleur {
+	
+	-fx-min-width: 150px;
+	-fx-max-width: 800px;
+	-fx-min-height: 100px;
+	-fx-max-height: 150px;
+	-fx-alignment:center;
+	-fx-background-color: red;
+	-fx-border-style: solid;
+	-fx-border-color: #00d0be;
+	-fx-border-width: 2px;
+	-fx-background-radius: 100px 100px 100px 100px;
+	-fx-border-radius: 100px 100px 100px 100px;
+	-fx-text-fill: #00d0be;
+
+
+	
+}
+
+
+/* Le contenu de la langue et les boîtes à cochages*/
+.contenuTotalLangue{
+
+	-fx-min-height: 50px;
+	-fx-max-height: 200px;
+
+
+	
+}
+
+.conteneurLanguage{
+
+	-fx-min-width: 150px;
+	-fx-alignment:center;
+	-fx-max-width: 800px;
+	-fx-max-height: 50px;
+
+
+}
+
+.conteneurTitreLangue{
+
+	-fx-min-height: 50px;
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-font-style: italic;
+
+
+	
+	
+}
+
+.conteneurLangue{
+
+	-fx-min-width: 150px;
+	-fx-max-width: 800px;
+	-fx-min-height: 100px;
+	-fx-max-height: 150px;
+	-fx-alignment:center;
+	-fx-background-color: #00d0be;
+	-fx-border-style: solid;
+	-fx-border-color: red;
+	-fx-border-width: 2px;
+	-fx-background-radius: 100px 100px 100px 100px;
+	-fx-border-radius: 100px 100px 100px 100px;
+	-fx-text-fill: red;
+
+
+
+	
+}
+
+/* Bouton sauvegarde */
+
+.boutonSauvegarde{
+	-fx-background-color: #bcced6;	
+	-fx-min-width: 120px;
+
+	-fx-min-height: 40px;
+	
+	-fx-border-width: 1px;
+	-fx-background-radius: 40px 40px 40px 40px;
+	-fx-border-radius: 40px 40px 40px 40px;
+	-fx-font-weight: bold;
+	-fx-border-color: lightgreen;
+	-fx-text-fill: black;
+
+	
+	
+	
+}
+
+.conteneurBoutonSauvegarde {
+	
+	-fx-min-width: 150px;
+	-fx-max-width: 800px;
+	-fx-min-height: 100px;
+	-fx-max-height: 150px;
+	-fx-alignment:center;
+
+}
+
+.boutonSauvegarde:hover {
+	-fx-background-color: #add8e6
+}
+
+.boutonSauvegarde: pressed {
+	-fx-background-color: green;
+}
+
+ /* Textes sur les checkbox */
+
+.checkboxNoirBlanc {
+
+	-fx-font-size: 14px;
+	
+}
+
+.checkboxBleuRouge {
+
+	-fx-font-size: 14px;
+	
+}
+
+.checkboxFrancais {
+
+	-fx-font-size: 14px;
+	
+}
+
+.checkboxAnglais {
+
+	-fx-font-size: 14px;
+
+}
