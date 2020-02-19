@@ -30,7 +30,7 @@ public class Principal extends Application {
 
 
 		J.appel(this);
-		fenetrePrincipale.setTitle("Configuration");
+		fenetrePrincipale.setTitle("Paramètre de jeu");
 		Scene scene = creerScenePrincipale();
 
 		fenetrePrincipale.setScene(scene);
@@ -46,7 +46,7 @@ public class Principal extends Application {
 		ChargeurDeVue chargeur = new ChargeurDeVue(Constantes.CHEMIN_PARTIE_LOCALE_FXML,Constantes.CHEMIN_CHAINES,Constantes.CHEMIN_PARTIE_LOCALE_CSS);
 
 		Scene scene = chargeur.nouvelleScene(600,400);
-
+		
 		DoitEtre.nonNul(scene);
 
 		return scene;

@@ -9,6 +9,8 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.control.CheckBox?>
 
+<?import vitesse_java.vues.composants.CartesAjustable?>
+<?import vitesse_java.vues.composants.BoutonAnimation?>
 
 
 
@@ -24,9 +26,13 @@
 				</HBox>		
 				
 				<HBox styleClass ="contenuTotalCouleur" VBox.vgrow="ALWAYS">
-					<HBox styleClass="conteneurCochageCouleur" HBox.hgrow="ALWAYS">	
+					<HBox styleClass="conteneurCochageCouleur" HBox.hgrow="ALWAYS">
+						
+						<CartesAjustable styleClass ="grandeurCartes" url="/images/cartes_noir_et_blanc/noir_et_blanc.png" HBox.hgrow="ALWAYS"/>
 						<CheckBox styleClass= "checkboxNoirBlanc" text="%couleurNoirBlanc" />
 						<CheckBox styleClass= "checkboxBleuRouge" text="%couleurBleuRouge" />
+						<CartesAjustable styleClass ="grandeurCartes" url="/images/cartes_bleu_et_rouge/bleu_et_rouge.png" HBox.hgrow="ALWAYS"/>
+				
 					</HBox>
 					
 				</HBox>	
@@ -47,7 +53,7 @@
 				</HBox>	
 				
 					<VBox styleClass = "conteneurBoutonSauvegarde" VBox.vgrow="ALWAYS" >
-						<Button styleClass = "boutonSauvegarde" text="%boutonSauvegarde" />
+						<BoutonAnimation styleClass = "boutonSauvegarde" text="%boutonSauvegarde" />
 					</VBox>
 			
 		
