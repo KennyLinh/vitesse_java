@@ -1,4 +1,4 @@
-package vitesse_java.vues.composants;
+package vitesse.vues.composants;
 
 import commun.debogage.J;
 import javafx.animation.KeyFrame;
@@ -29,7 +29,7 @@ public class BoutonAnimation extends Button {
 	
 	private void installerListeners() {
 		
-		J.appel(this);;
+		J.appel(this);
 		
 		this.setOnMouseEntered(new EventHandler<Event>() {
 			@Override

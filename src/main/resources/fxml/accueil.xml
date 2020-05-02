@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import vitesse.vues.composants.BoutonAnimation?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+    fx:controller="vitesse.vues.VueAccueilFX" 
+    styleClass="fenetrePrincipale"
+    VBox.vgrow="ALWAYS"
+    alignment="center">
+    
+    	<HBox styleClass="conteneurTitreJeu" VBox.vgrow="ALWAYS">
+			<Text styleClass="titreJeu" text="%titreJeu" />
+		</HBox>
+		
+    <Pane styleClass="grosEspace" VBox.vgrow="ALWAYS"/>
+    <BoutonAnimation fx:id="boutonNouvellePartie" styleClass="boutonSauvegarde" text="%nouvellePartie"/>
+    <Pane styleClass="petitEspace" VBox.vgrow="ALWAYS"/>
+    <BoutonAnimation fx:id="boutonOuvrirParametres" styleClass="boutonSauvegarde" text="%parametres"/>
+    <Pane styleClass="grosEspace" VBox.vgrow="ALWAYS"/>
+</VBox>

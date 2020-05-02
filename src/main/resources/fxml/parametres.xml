@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import vitesse.vues.composants.CartesAjustable?>
+<?import vitesse.vues.composants.BoutonAnimation?>
+<?import vitesse.vues.composants.CarteCouleurChoisi?>
+
+
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+	styleClass="conteneurPrincipal"
+	fx:controller="vitesse.vues.VueParametresFX">
+
+	<HBox styleClass="conteneurLanguage" VBox.vgrow="ALWAYS">
+		<HBox styleClass="conteneurTitreLangue">
+			<Text styleClass="parametreLangue" text="%titreLangue" />
+		</HBox>
+	</HBox>
+
+	<HBox styleClass="contenuTotalLangue" VBox.vgrow="ALWAYS">
+		<HBox styleClass="conteneurLangue" HBox.hgrow="ALWAYS">
+			<Button fx:id="boutonChangerLangu"
+				styleClass="checkboxFrancais" text="%fr" />
+			<Pane styleClass="grosEspaceHorizontale" VBox.vgrow="ALWAYS"/>
+			<Button fx:id="boutonChangerLangue"
+				styleClass="checkboxAnglais" text="%en" />
+		</HBox>
+
+	</HBox>
+
+	<HBox styleClass="conteneurCouleur" VBox.vgrow="ALWAYS">
+		<HBox styleClass="conteneurTitreCouleurCarte">
+			<Text styleClass="couleurCarte" text="%titreCouleur" />
+		</HBox>
+	</HBox>
+
+	<HBox styleClass="contenuTotalCouleur" VBox.vgrow="ALWAYS">
+		<HBox styleClass="conteneurCochageCouleur" HBox.hgrow="ALWAYS">
+
+			<CartesAjustable styleClass="grandeurCartes"
+				url="/images/cartes_noir_et_blanc/noir_et_blanc.png"
+				HBox.hgrow="ALWAYS" />
+			<RadioButton fx:id="checkBoxNoirBlanc"
+				toggleGroup="$group" styleClass="checkboxNoirBlanc"
+				text="%couleurNoirBlanc">
+
+
+				<toggleGroup>
+
+					<ToggleGroup fx:id="group" />
+
+				</toggleGroup>
+
+			</RadioButton>
+
+			<Pane styleClass="grosEspaceHorizontale" VBox.vgrow="ALWAYS"/>
+			
+
+
+			<RadioButton toggleGroup="$group"
+				fx:id="checkBoxBleuRouge" styleClass="checkboxBleuRouge"
+				text="%couleurBleuRouge" />
+			<CartesAjustable styleClass="grandeurCartes"
+				url="/images/cartes_bleu_et_rouge/bleu_et_rouge.png"
+				HBox.hgrow="ALWAYS" />
+
+		</HBox>
+
+	</HBox>
+
+
+
+
+
+
+	<VBox styleClass="conteneurBoutonSauvegarde" VBox.vgrow="ALWAYS">
+		<BoutonAnimation fx:id="boutonRetour"
+			styleClass="boutonSauvegarde" text="%Confirmer" />
+
+
+
+	</VBox>
+</VBox>
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

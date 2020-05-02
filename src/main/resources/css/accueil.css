@@ -1,0 +1,77 @@
+.conteneurPrincipal {
+  -fx-alignment: center;
+  -fx-background-color: white;
+  -fx-padding: 4em;
+}
+.petitEspace {
+  -fx-min-width: 1em;
+  -fx-max-width: 4em;
+  -fx-min-height: 1em;
+  -fx-max-height: 4em;
+}
+.grosEspace {
+  -fx-min-height: 2em;
+  -fx-pref-height: 4em;
+  -fx-max-height: 8em;
+}
+.fenetrePrincipale {
+  -fx-border-style: solid;
+  -fx-border-width: 2px;
+  -fx-border-color: #305ae1;
+  -fx-background-color: white;
+}
+MenuBar,
+ToolBar {
+  -fx-background-color: #bcced6;
+}
+Menu {
+  -fx-background-color: #bcced6;
+}
+MenuItem {
+  -fx-background-color: #bcced6;
+}
+
+.boutonSauvegarde:hover {
+	-fx-background-color: #add8e6;
+}
+
+.boutonSauvegarde: pressed {
+	-fx-background-color: green;
+}
+
+.boutonSauvegarde{
+	-fx-background-color: #bcced6;	
+	-fx-min-width: 120px;
+
+	-fx-min-height: 40px;
+	
+	-fx-border-width: 1px;
+	-fx-background-radius: 40px 40px 40px 40px;
+	-fx-border-radius: 40px 40px 40px 40px;
+	-fx-font-weight: bold;
+	-fx-border-color: blue;
+	-fx-text-fill: black;
+
+}
+.titreJeu {
+	-fx-font-size:50px;
+	-fx-font-family: "Lucida Calligraphy";
+}
+
+
+.conteneurTitreJeu{
+
+	-fx-min-height: 50px;
+	-fx-font-size: 18px;
+	-fx-font-weight: bold;
+	-fx-font-style: italic;
+
+
+	-fx-min-width: 150px;
+	-fx-alignment:center;
+	-fx-max-width: 700px;
+	-fx-max-height: 50px;
+
+
+	
+}

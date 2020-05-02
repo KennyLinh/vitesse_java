@@ -1,4 +1,4 @@
-package vitesse_java.vues.composants;
+package vitesse.vues.composants;
 
 
 
