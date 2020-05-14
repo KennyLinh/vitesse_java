@@ -1,10 +1,7 @@
-package vitesse.modeles.partie.partie;
+package vitesse.modeles.partie;
 
 
-import commun.debogage.J;
 import commun.modeles.Modele;
-import vitesse.Constantes;
-import vitesse.modeles.partie.PartieLectureSeule;
 
 public class      Partie<PLS extends PartieLectureSeule> 
        extends    Modele<PLS>
