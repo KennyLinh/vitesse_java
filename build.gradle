@@ -14,6 +14,11 @@ dependencies {
 
     compile project(':commun')
     compile project(':commun_javafx')
+    compile project(':commun_client')
+	compile project(':commun_serveur')
+	implementation 'org.java-websocket:Java-WebSocket:1.4.0'
+
+
 }
 
 task(joueur01,dependsOn: 'classes', type: JavaExec){
@@ -27,3 +32,4 @@ task(joueur01En, dependsOn: 'classes', type: JavaExec) {
    classpath = sourceSets.main.runtimeClasspath
    jvmArgs('-Duser.language=en')
 }
+
