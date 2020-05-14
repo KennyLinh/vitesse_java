@@ -5,10 +5,13 @@ import commun.debogage.J;
 import commun_client.mvc.controleurs.FabriqueControleur;
 import commun_javafx.ChargeurDeVue;
 import commun_javafx.DialogueModal;
+import commun_javafx.*;
 
 import static vitesse.Constantes.*;
 
+import java.net.URI;
 
+import vitesse.ClientVitesse;
 import commun_javafx.Initialisateur;
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -35,6 +38,10 @@ public class Principal extends Application {
 	
 	@Override
 	public void start(Stage fenetrePrincipale) throws Exception {
+		
+		ClientVitesse client = new ClientVitesse(new URI(Constantes.ADRESSE));
+		client.connect();
+		
 		J.appel(this);
 		
 		DialogueModal.enregistreFenetrePrincipale(fenetrePrincipale);

@@ -65,4 +65,16 @@ public class ControleurAccueilFX extends ControleurAccueil<VueAccueilFX> {
 	protected void demarrer() {
 		J.appel(this);
 	}
+	
+	@Override
+	protected void obtenirMessagesPourEnvoi() {
+	    J.appel(this);
+
+	}
+
+	@Override
+	protected void installerReceptionMessages() {
+	    J.appel(this);
+
+	}
 }

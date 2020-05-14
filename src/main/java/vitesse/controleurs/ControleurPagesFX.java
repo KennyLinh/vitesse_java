@@ -127,4 +127,16 @@ public class ControleurPagesFX extends ControleurPages<VuePagesFX> {
 		FabriqueControleur.creerControleur(ControleurPartieLocaleFX.class, partie, vuePartie, afficheur);
 	}
 
+	@Override
+	protected void obtenirMessagesPourEnvoi() {
+	    J.appel(this);
+
+	}
+
+	@Override
+	protected void installerReceptionMessages() {
+	    J.appel(this);
+
+	}
+
 }

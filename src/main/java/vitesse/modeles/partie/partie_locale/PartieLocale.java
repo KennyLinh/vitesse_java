@@ -1,4 +1,4 @@
-package vitesse.modeles.partie_locale;
+package vitesse.modeles.partie.partie_locale;
 
 import java.util.Random;
 
@@ -12,7 +12,6 @@ public class      PartieLocale
 	public PartieLocale() {
 		super();
 		J.appel(this);
-		
 
 	}
 }

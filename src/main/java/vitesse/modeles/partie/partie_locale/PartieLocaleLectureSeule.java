@@ -1,4 +1,4 @@
-package vitesse.modeles.partie_locale;
+package vitesse.modeles.partie.partie_locale;
 
 import vitesse.modeles.partie.PartieLectureSeule;
 
