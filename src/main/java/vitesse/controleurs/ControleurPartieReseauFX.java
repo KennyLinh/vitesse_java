@@ -10,6 +10,7 @@ public class   ControleurPartieReseauFX
        extends ControleurPartieReseau<VuePartieReseauFX, 
                                       AfficheurPartieReseauFX> {
 
+	
 	@Override
 	protected void obtenirMessagesPourEnvoi() {
 	    J.appel(this);

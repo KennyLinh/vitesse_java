@@ -4,6 +4,7 @@ import commun.modeles.ModeleLectureSeule;
 
 public interface PartieLectureSeule 
        extends   ModeleLectureSeule {
+	
 
 
 }

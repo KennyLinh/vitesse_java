@@ -14,7 +14,7 @@ public class Principal {
 	private static void demarrerServeur() {
 		J.appel(Principal.class);
 		
-		ServeurQuatreDeSuite serveur = new ServeurQuatreDeSuite(PORT);
+		ServeurVitesse serveur = new ServeurVitesse(PORT);
 		serveur.start();
 	}
 

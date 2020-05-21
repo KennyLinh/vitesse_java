@@ -4,4 +4,5 @@ import commun_client.mvc.Vue;
 
 public interface VuePartie extends Vue {
 
+
 }

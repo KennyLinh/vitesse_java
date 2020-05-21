@@ -6,6 +6,7 @@ import vitesse.afficheurs.AfficheurParametresFX;
 import vitesse.vues.VueParametresFX;
 
 public class ControleurParametresFX extends ControleurParametres<VueParametresFX, AfficheurParametresFX> {
+
 	@Override
 	protected void obtenirMessagesPourEnvoi() {
 	    J.appel(this);
@@ -17,5 +18,6 @@ public class ControleurParametresFX extends ControleurParametres<VueParametresFX
 	    J.appel(this);
 
 	}
+
 
 }

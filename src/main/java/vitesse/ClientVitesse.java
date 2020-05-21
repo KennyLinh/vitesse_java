@@ -2,7 +2,6 @@ package vitesse;
 
 import java.net.URI;
 
-import commun_javafx.*;
 import commun_javafx.ClientWebSocketFX;
 
 public class ClientVitesse extends ClientWebSocketFX {

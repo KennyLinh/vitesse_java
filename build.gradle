@@ -15,21 +15,23 @@ dependencies {
     compile project(':commun')
     compile project(':commun_javafx')
     compile project(':commun_client')
-	compile project(':commun_serveur')
+    compile project (':commun_serveur')
 	implementation 'org.java-websocket:Java-WebSocket:1.4.0'
-
-
 }
 
 task(joueur01,dependsOn: 'classes', type: JavaExec){
-	main = 'vitesse_java.Principal'
+	main = 'vitesse.Principal'
 	classpath = sourceSets.main.runtimeClasspath
    	jvmArgs('-Duser.language=fr')
 }
 
 task(joueur01En, dependsOn: 'classes', type: JavaExec) {
-   main = 'vitesse_java.Principal'
+   main = 'vitesse.Principal'
    classpath = sourceSets.main.runtimeClasspath
    jvmArgs('-Duser.language=en')
 }
 
+task(serveur, dependsOn: 'classes', type: JavaExec) {
+   main = 'vitesse_serveur.Principal'
+   classpath = sourceSets.main.runtimeClasspath
+}

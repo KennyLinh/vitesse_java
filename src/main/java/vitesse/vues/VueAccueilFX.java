@@ -71,12 +71,11 @@ public class VueAccueilFX implements VueAccueil, Initializable {
 		});
 	}
 
-	
+
 
 	@Override
 	public void verifierCommandesPossibles() {
 		J.appel(this);
 	}
 
-	
 }

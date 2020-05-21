@@ -1,4 +1,4 @@
-rootProject.name = 'vitesse_java'
+rootProject.name = 'vitesse'
 
 include ':commun'
 project(':commun').projectDir = file('../tutoriels_java/commun')
@@ -10,4 +10,7 @@ include ':commun_client'
 project(':commun_client').projectDir = file('../tutoriels_java/commun_client')
 
 include ':commun_serveur'
-project(':commun_serveur').projectDir = file('../tutoriels_java/commun_serveur')
+project (':commun_serveur').projectDir = file ('../tutoriels_java/commun_serveur')
+
+
+

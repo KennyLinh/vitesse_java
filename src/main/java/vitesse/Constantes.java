@@ -16,8 +16,6 @@ public class Constantes {
 	public static final String CHEMIN_PARTIE_LOCALE_FXML = "/fxml/partieLocale.xml";
 	public static final String CHEMIN_PARTIE_LOCALE_CSS= "/css/partieLocale.css";
 	
-	
-	
 	public static final int PORT = 8765;
 	public static final String ADRESSE = String.format("ws://localhost:%s", PORT);
 	

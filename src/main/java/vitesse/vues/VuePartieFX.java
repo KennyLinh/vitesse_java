@@ -9,8 +9,10 @@ import javafx.fxml.Initializable;
 import javafx.scene.text.Text;
 import vitesse_client.vues.VuePartie;
 
+
 public abstract class VuePartieFX implements VuePartie, Initializable {
 
+  
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
 	    J.appel(this);
@@ -34,4 +36,5 @@ public abstract class VuePartieFX implements VuePartie, Initializable {
 	    J.appel(this);
 
 	}
+	
 }

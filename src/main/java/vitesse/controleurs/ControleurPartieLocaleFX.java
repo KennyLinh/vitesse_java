@@ -1,7 +1,7 @@
 package vitesse.controleurs;
 
-import commun.debogage.J;
 import vitesse_client.controleurs.ControleurPartieLocale;
+import commun.debogage.J;
 import vitesse.afficheurs.AfficheurPartieLocaleFX;
 import vitesse.vues.VuePartieLocaleFX;
 
@@ -20,4 +20,5 @@ public class   ControleurPartieLocaleFX
 	    J.appel(this);
 
 	}
+
 }
