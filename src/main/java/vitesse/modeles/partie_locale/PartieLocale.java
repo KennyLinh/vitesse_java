@@ -14,4 +14,13 @@ public class      PartieLocale
 		J.appel(this);
 
 	}
-}
+
+
+		public boolean siInitialisee() {
+			
+			J.appel(this);
+
+			return false;
+		}
+	}
+
